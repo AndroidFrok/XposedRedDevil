@@ -18,7 +18,7 @@ android {
     }
     buildTypes {
         debug {
-            minifyEnabled true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
         release {
@@ -68,7 +68,7 @@ dependencies {
     implementation 'com.blankj:utilcodex:1.31.1'
     implementation 'com.google.code.gson:gson:2.8.6'
     implementation 'com.jakewharton:butterknife:10.2.3'
-    implementation 'com.github.getActivity:XXPermissions:13.2'
+    implementation 'com.github.getActivity:XXPermissions:18.2'
     implementation 'org.greenrobot:greendao:3.3.0'
     implementation 'org.greenrobot:greendao-generator:3.3.0'
     implementation 'com.github.bumptech.glide:glide:4.8.0'
